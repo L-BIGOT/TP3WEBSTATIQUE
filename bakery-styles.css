@@ -1,0 +1,46 @@
+body {font-family: 'Stint Ultra Expanded', cursive;}
+nav {text-align: center;
+color: #F9AB33;
+background-color: #783F27;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-transform:uppercase ;
+letter-spacing: .3em;
+font-size: .8em
+}
+nav:link {color: #608080;}
+p {font-style: italic;
+color: FFFFFF;
+text-align: center;}
+h1{text-align: center;}
+footer {text-align: center;
+    color: #EADDC4;
+background-color: #783F27;
+padding:1em ;}
+h2 {color: #555555;}
+.main {border-color: #EADDC4;
+border-style: double;
+padding: 1em;
+margin: 2.5%;
+border-radius: 25px;
+text-align: left;}
+
+h3 {text-transform: uppercase;
+letter-spacing: .2em;
+color: #7A0002;
+padding-left: 1em;
+margin-top: 2.5em;
+border-top: 1px solid;
+border-left: solid 3px;}
+.hours {text-align: left;
+    background-color: #F6F3ED;
+margin: 2.5%;
+padding: 1em;
+border-style: solid;
+border-color: #7A0002;
+}
+
+.day {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #783F27;}
+.more:link {color: #F9AB33;}
+
+header {background-image: url(/images/croissants_banner.jpg);}
