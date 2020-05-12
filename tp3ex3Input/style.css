@@ -42,10 +42,7 @@ html {
   nav, footer {
     font-family: verdana, sans-serif;
     background-color: #783F27;
-    grid-row-start: 1;
-    grid-row-end: 8;
-    grid-column-start: 1 ;
-    grid-column-end:2 ;
+  
   }
   nav ul li a:link, nav ul li a:visited {
     color: #F9AB33;
