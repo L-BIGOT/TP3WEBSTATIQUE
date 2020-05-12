@@ -3,13 +3,16 @@ a {
 color: #F9AB33;
 text-transform:uppercase ;
 letter-spacing: .3em;
-font-size: .8em
+font-size: .8em;
+border-bottom: dotted 1px;
 }
+ul {list-style-type: none;}
+
 nav{text-align: center;
 background-color: #783F27;
 font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-a:link {color: #608080;}
+a:hover {color: #608080;}
 p {font-style: italic;
 color: FFFFFF;}
 h1{text-align: center;}
