@@ -17,8 +17,8 @@ html {
     margin-left: 5%;
     margin-right: 5%;
     display: grid;
-    grid-template-columns: 3em 20px 150px 300px 5em;
-    grid-template-rows: 1fr 20px 150px 20px 150px 20px 150px;
+    grid-template-rows: 3em 20px 150px 300px 5em;
+    grid-template-columns: 1fr 20px 150px 20px 150px 20px 150px;
 
   }
   
@@ -69,6 +69,33 @@ html {
     padding: .5em 1em;
     margin: .5em; 
   }
+
+  nav{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+
+  #figA {grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;}
+
+  #figB {grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 5;
+      grid-column-end: 6;}
+
+  #figC {grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 7;
+        grid-column-end: 8;}
+
+  footer {grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 8;}
   
   
   /* main styles */
@@ -80,6 +107,11 @@ html {
     padding: 1em;
     border: double 4px #EADDC4;
     border-radius: 25px;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
   }
   
   
